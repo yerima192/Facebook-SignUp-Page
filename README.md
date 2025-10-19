@@ -15,6 +15,10 @@ Il a été réalisé en HTML et CSS, avec une mise en page responsive qui s’ad
 - HTML5
 - CSS
 
+
+##  Lien de déploiement
+ [voir le projet](https://yerima192.github.io/Facebook-SignUp-Page/)
+
 # capture pour les mobiles
 ![mobile](./Assets/Mobile.png)
 
