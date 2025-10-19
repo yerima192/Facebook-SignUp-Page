@@ -14,5 +14,9 @@ Il a été réalisé en HTML et CSS, avec une mise en page responsive qui s’ad
 ## Technologies utilisées
 - HTML5
 - CSS
+
+# capture pour les mobiles
 ![mobile](./Assets/Mobile.png)
+
+# capture pour le desktop
 ![desktop](./Assets/desktop.png)
