@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    background-color: #e9ebee;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 6rem;
+    color: #1c1e21;
+}
+.form {
+    width: 550px;
+    height: 700px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.08);
+}
+.entete {
+    text-align: center;
+    line-height: 40px;
+    margin-top: 25px;
+    width: 100%;
+    height: 100px;
+    border-bottom: solid #ccc 1px;
+}
+.nom {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.personnalité {
+    width: 100%;
+    gap: 20px;
+}
+.personnalité input:focus {
+    border: solid rgba(0, 0, 0, 0.742)2px;
+}
+.email input:focus {
+    border: solid rgba(0, 0, 0, 0.742)2px;
+}
+.jour1 select:focus {
+    border: solid rgba(0, 0, 0, 0.742)2px;
+}
+.jour select:focus {
+    border: solid rgba(0, 0, 0, 0.742)2px;
+}
+.personnalité input {
+    width: 98%;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid #ccc 1px;
+    font-size: 15px;
+}
+.email {
+    margin-top: 10px;
+}
+.email input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid #ccc 1px;
+    font-size: 15px;
+}
+.option {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 10px;
+}
+.jour1{
+    text-align: left;
+    line-height: 30px;
+    font-size: 15px;
+}
+.jour {
+    margin-top: 18px;
+}
+select {
+    width: 156px;
+    padding: 13px;
+    border-radius: 8px;
+    border: solid #ccc 1px;
+    background-color: #cccccc51;
+    font-size: 15px;
+
+}
+.radio {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 15px;
+}
+.femme {
+    width: 33%;
+    border: solid #ccc 1px;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: start;
+
+}
+.para {
+    margin-top: 30px;
+    text-align: start;
+    font-size: 15px;
+}
+.para a {
+    color: #1877f2;
+}
+.para a:hover {
+    text-decoration: underline;
+}
+.btn {
+    margin-top: 40px;
+}
+
+button {
+    width: 100%;
+    padding: 18px;
+    border-radius: 8px;
+    border: solid #ccc 1px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+@media (max-width:1024px) {
+    .form {
+        height: 80%;
+    }
+}
+@media (max-width:768px) {
+    .container {
+        margin-top: 10px;
+    }
+
+    .form {
+        height: 100vh;
+    }
+
+    .nom {
+        flex-direction: column;
+    }
+
+    .personnalité {
+        margin-top: 10px;
+    }
+
+    .jour1 {
+        text-align: start;
+    }
+
+    .jour {
+        margin-top: 0px;
+    }
+
+    .option {
+        flex-direction: column;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .radio {
+        flex-direction: column;
+    }
+
+    .femme {
+        width: 50%;
+        text-align: start;
+    }
+
+    .para {
+        margin-top: 10px;
+    }
+
+    .btn {
+        margin-top: 25px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media (max-width:425px) {
+    .para {
+        font-size: 13px;
+    }
+
+    .btn {
+        margin-top: 20px;
+
+    }
+
+    button {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:320px) {
+    .femme {
+        padding: 12px;
+        font-size: 13px;
+    }
+
+}
